@@ -1,0 +1,22 @@
+print("calculater")
+while (1>0):
+    a=float(input("enter 1 number"))
+    b=float(input('enter 2 number'))
+    x=input("operator/sign")
+    if (x=="+"):
+        print("a+b=",a+b)
+    elif (x=="-"):
+        print("a-b=",a-b)
+    elif (x=="*"):
+        print("a*b=",a*b)
+    elif (x=="**"):
+        print("a**b=",a**b)
+    elif (x=="%"):
+        print("a%b=",a%b)
+    elif (x=="/"):
+        print("a/b=",a/b)
+    elif (x=="//"):
+        print("a//b=",a//b)
+    else:
+        print("invalid character")
+
